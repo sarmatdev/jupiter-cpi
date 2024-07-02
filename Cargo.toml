@@ -21,3 +21,6 @@ anchor-lang = ">=0.26.0"
 solana-program = "1.18.17"
 jupiter-amm-interface = { git = "https://github.com/sarmatdev/jupiter-amm-interface" }
 rand = "0.8.5"
+
+[patch.crates-io]
+solana-program = { git = "https://github.com/solana-labs/solana.git", tag = "v1.18.17", package = "solana-program" }
