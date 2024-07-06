@@ -18,9 +18,9 @@ cpi = ["no-entrypoint"]
 [dependencies]
 anchor-gen = { git = "https://github.com/jup-ag/anchor-gen.git", rev = "dae4c216b883ea089432ff5c00d100f4f662fd07" }
 anchor-lang = "0.30.0"
-solana-program = "1.18.17"
+solana-program = "1.18.15"
 jupiter-amm-interface = { git = "https://github.com/sarmatdev/jupiter-amm-interface" }
 rand = "0.8.5"
 
 [patch.crates-io]
-solana-program = { git = "https://github.com/solana-labs/solana.git", tag = "v1.18.17", package = "solana-program" }
+solana-program = { git = "https://github.com/solana-labs/solana.git", tag = "v1.18.15", package = "solana-program" }
